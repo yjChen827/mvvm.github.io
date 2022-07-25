@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet"  type="text/css"  href="index.css"/>
+</head>
+<body>
+    <!-- 整个页面的容器 View -->
+    <div id="app">
+        <!--  插值语句 -->
+        <div class="first">
+            <h3 class="title">验证插值语句</h3>
+            <p>{{welcome}}，我是{{person.name}}</p>
+            <p>我今年{{person.age}}岁，性别{{person.sex}}</p>
+        </div>
+        <hr>
+
+        <!-- text指令-->
+        <div class="second">
+            <h3>验证v-text指令</h3>
+            <p v-text="text"></p>
+        </div>
+        <hr>
+
+        <!-- html指令: 可以解析html解析 -->
+        <div class="third">
+            <h3>验证v-html指令</h3>
+            <p v-html="html"></p>
+        </div>
+        <hr>
+        <!-- v-bind指令：事项数据单向绑定-->
+        <div class="forth" >
+            <h3>验证v-bind指令：数据单向绑定</h3>
+            <div>
+                修改长方形的长:<input type="number" v-model="height">
+                宽:<input type="number" v-model="width">
+                通过v-bind绑定到长方形的height和width属性上
+            </div>
+            <table border="1px">
+                <tr>
+                    <td v-bind:width="width" v-bind:height="height" ></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+
+        <!-- v-model指令：数据的双向绑定 -->
+        <div class="fifth">
+            <h3>验证v-model指令:数据的双向绑定</h3>
+            <input v-model="input_text">
+            <p>输入的数据为：{{input_text}}</p>
+        </div>
+        <hr>
+
+        <div class="sixth">
+            <h3>验证v-on指令</h3>
+            <button v-on:click="incNum">点击num加一</button>
+            <p>num的值为: {{num}}</p>
+        </div>
+        <hr>
+
+        <!-- 验证订阅发布者模式 -->
+        <div class="seventh">
+            <h3>验证订阅发布者模式</h3>
+            订阅的内容：<input v-model="article"/>
+            <p>订阅者1：{{article}}</p>
+            <p>订阅者2：{{article}}</p>
+            <p>订阅者3：{{article}}</p>
+            <p>订阅者4：{{article}}</p>
+        </div>
+    </div>
+
+    <!--  引入js文件  -->
+    <script src="./dist/index.js">
+    </script>
+
+    <script>
+        // 创建mvvm实例
+        let mvvm = new MyMVVM({
+            el: '#app',
+            // Model
+            data: {
+                welcome: 'Hello!',
+                person: {
+                    name: '张三',
+                    age: 18,
+                    sex: '男',
+                },
+                text: 'This is a text.',
+                html: '<h4>Hello World!</h4>' +
+                    '<h4>This is a MVVM</h4>',
+                input_text: 'Hello MVVM',
+                num: 1,
+                article: '订阅信息',
+                height: 100,  // 长方形长
+                width: 50  // 长方形框
+            },
+            methods: {
+                incNum(){
+                    this.$data.num ++;
+                }
+            }
+        })
+    </script>
+
+</body>
+</html>

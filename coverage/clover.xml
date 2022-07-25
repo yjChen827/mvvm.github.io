@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1658477342938" clover="3.2.0">
+  <project timestamp="1658477342939" name="All files">
+    <metrics statements="147" coveredstatements="146" conditionals="49" coveredconditionals="47" methods="50" coveredmethods="49" elements="246" coveredelements="242" complexity="0" loc="147" ncloc="147" packages="3" files="11" classes="11"/>
+    <package name="src">
+      <metrics statements="124" coveredstatements="123" conditionals="42" coveredconditionals="40" methods="39" coveredmethods="38"/>
+      <file name="MyCompile.ts" path="D:\MyGitee\class-assignments\MVVM_Demo\src\MyCompile.ts">
+        <metrics statements="66" coveredstatements="66" conditionals="24" coveredconditionals="22" methods="18" coveredmethods="18"/>
+        <line num="14" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="17" count="11" type="stmt"/>
+        <line num="19" count="14" type="stmt"/>
+        <line num="22" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="39" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="41" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="47" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="59" count="10" type="stmt"/>
+        <line num="61" count="10" type="stmt"/>
+        <line num="64" count="9" type="stmt"/>
+        <line num="65" count="9" type="stmt"/>
+        <line num="68" count="9" type="cond" truecount="1" falsecount="1"/>
+        <line num="69" count="9" type="stmt"/>
+        <line num="70" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="75" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="77" count="2" type="stmt"/>
+        <line num="79" count="2" type="stmt"/>
+        <line num="82" count="6" type="stmt"/>
+        <line num="85" count="9" type="stmt"/>
+        <line num="96" count="4" type="stmt"/>
+        <line num="99" count="4" type="stmt"/>
+        <line num="101" count="8" type="stmt"/>
+        <line num="104" count="4" type="stmt"/>
+        <line num="110" count="4" type="stmt"/>
+        <line num="112" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="115" count="3" type="stmt"/>
+        <line num="117" count="3" type="stmt"/>
+        <line num="118" count="3" type="stmt"/>
+        <line num="121" count="3" type="stmt"/>
+        <line num="124" count="3" type="stmt"/>
+        <line num="125" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="126" count="3" type="stmt"/>
+        <line num="127" count="3" type="stmt"/>
+        <line num="129" count="3" type="stmt"/>
+        <line num="132" count="3" type="stmt"/>
+        <line num="133" count="1" type="stmt"/>
+        <line num="134" count="1" type="stmt"/>
+        <line num="136" count="1" type="stmt"/>
+        <line num="138" count="1" type="stmt"/>
+        <line num="139" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="140" count="1" type="stmt"/>
+        <line num="141" count="1" type="stmt"/>
+        <line num="143" count="1" type="stmt"/>
+        <line num="157" count="1" type="stmt"/>
+        <line num="159" count="1" type="stmt"/>
+        <line num="160" count="1" type="stmt"/>
+        <line num="161" count="2" type="stmt"/>
+        <line num="163" count="1" type="stmt"/>
+        <line num="172" count="14" type="stmt"/>
+        <line num="182" count="9" type="stmt"/>
+        <line num="183" count="9" type="stmt"/>
+        <line num="191" count="9" type="stmt"/>
+        <line num="199" count="8" type="stmt"/>
+        <line num="207" count="1" type="stmt"/>
+        <line num="215" count="2" type="stmt"/>
+      </file>
+      <file name="MyMVVM.ts" path="D:\MyGitee\class-assignments\MVVM_Demo\src\MyMVVM.ts">
+        <metrics statements="15" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="5"/>
+        <line num="17" count="14" type="stmt"/>
+        <line num="18" count="14" type="stmt"/>
+        <line num="19" count="14" type="stmt"/>
+        <line num="21" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="29" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="45" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="54" count="4" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+      </file>
+      <file name="MyObserver.ts" path="D:\MyGitee\class-assignments\MVVM_Demo\src\MyObserver.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6"/>
+        <line num="13" count="9" type="stmt"/>
+        <line num="15" count="9" type="stmt"/>
+        <line num="21" count="31" type="cond" truecount="4" falsecount="0"/>
+        <line num="22" count="20" type="stmt"/>
+        <line num="26" count="11" type="stmt"/>
+        <line num="27" count="13" type="stmt"/>
+        <line num="29" count="13" type="stmt"/>
+        <line num="36" count="13" type="stmt"/>
+        <line num="38" count="13" type="stmt"/>
+        <line num="40" count="13" type="stmt"/>
+        <line num="45" count="85" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="85" type="stmt"/>
+        <line num="49" count="9" type="stmt"/>
+        <line num="53" count="9" type="stmt"/>
+        <line num="56" count="9" type="stmt"/>
+      </file>
+      <file name="MyWatcher.ts" path="D:\MyGitee\class-assignments\MVVM_Demo\src\MyWatcher.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+        <line num="19" count="11" type="stmt"/>
+        <line num="20" count="11" type="stmt"/>
+        <line num="21" count="11" type="stmt"/>
+        <line num="24" count="11" type="stmt"/>
+        <line num="29" count="11" type="stmt"/>
+        <line num="33" count="11" type="stmt"/>
+        <line num="40" count="10" type="stmt"/>
+        <line num="41" count="10" type="stmt"/>
+        <line num="43" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="5" type="stmt"/>
+        <line num="48" count="10" type="stmt"/>
+        <line num="62" count="13" type="stmt"/>
+        <line num="67" count="10" type="stmt"/>
+        <line num="73" count="9" type="stmt"/>
+        <line num="74" count="10" type="stmt"/>
+      </file>
+      <file name="util.ts" path="D:\MyGitee\class-assignments\MVVM_Demo\src\util.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="9" count="35" type="stmt"/>
+        <line num="10" count="35" type="stmt"/>
+        <line num="11" count="35" type="stmt"/>
+        <line num="12" count="38" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="37" type="stmt"/>
+        <line num="17" count="34" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="32" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.InstructionParser">
+      <metrics statements="6" coveredstatements="6" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <file name="InstructionParserFactory.ts" path="D:\MyGitee\class-assignments\MVVM_Demo\src\InstructionParser\InstructionParserFactory.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="16" count="9" type="cond" truecount="5" falsecount="0"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.InstructionParser.Impl">
+      <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="10"/>
+      <file name="BindInstructionParser.ts" path="D:\MyGitee\class-assignments\MVVM_Demo\src\InstructionParser\Impl\BindInstructionParser.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+      <file name="HtmlInstructionParser.ts" path="D:\MyGitee\class-assignments\MVVM_Demo\src\InstructionParser\Impl\HtmlInstructionParser.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="ModelInstructionParser.ts" path="D:\MyGitee\class-assignments\MVVM_Demo\src\InstructionParser\Impl\ModelInstructionParser.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+      <file name="OnInstructionParser.ts" path="D:\MyGitee\class-assignments\MVVM_Demo\src\InstructionParser\Impl\OnInstructionParser.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="9" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="TextInstructionParser.ts" path="D:\MyGitee\class-assignments\MVVM_Demo\src\InstructionParser\Impl\TextInstructionParser.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

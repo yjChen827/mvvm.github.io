@@ -1,0 +1,45 @@
+#app{
+    display: flex;
+    flex-direction: column;
+}
+.first {
+    height: 150px;
+    background: rgb(133, 187, 200);
+    border-radius: 10px;
+}
+.second {
+    height: 150px;
+    border-radius: 10px;
+    background: rgb(133, 187, 210);
+
+
+}
+.third {
+    height: 150px;
+    border-radius: 10px;
+    background: rgb(133, 187, 220);
+
+}
+.forth {
+    height: auto;
+    background: rgb(133, 187, 230);
+    border-radius: 10px;
+
+}
+.fifth {
+    height: 150px;
+    background: rgb(133, 187, 240);
+    border-radius: 10px;
+
+}
+.sixth {
+    height: 150px;
+    border-radius: 10px;
+    background: rgb(133, 187, 250);
+}
+
+.seventh {
+    height: auto;
+    border-radius: 10px;
+    background: rgb(133, 170, 255);
+}
